@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+    background-image:url("../images/home-background.jpg");
+    background-image: cover;
+background-position:center ;
+width:100%;
+
+
+    background-repeat:no-repeat;
+    background-size:100%;
+  
+    background-attachment:scroll;
+   
+    float:left;
+    height: 1800px;
+
+   
+}
+
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom:0;
+    grid-gap:1px;
+    
+
+}
+nav ul li{
+    list-style:none;
+    margin-left:0;
+    text-align: center;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:15px 0;
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+    
+}
+
+nav a:hover{
+    text-decoration:none;
+    color:red;
+    display:block;
+    padding:15px 0;
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+    
+}
+
+#kate-logo{
+    padding-top:100px;
+    float:right;
+}
+
+h1{
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size:60pt;
+    text-transform: uppercase;  
+}
+h2{
+    font-family: "futura-pt", sans-serif, light;
+    font-size:20px;
+}
+p{
+    font-family: "futura-pt", sans-serif;
+}
+@media (max-width:300px) {
+    nav a{
+        font-size:20px;
+    }
+    
+}
