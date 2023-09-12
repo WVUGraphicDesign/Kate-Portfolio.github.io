@@ -89,9 +89,95 @@ h2{
 p{
     font-family: "futura-pt", sans-serif;
 }
+#avon-img{
+    background-color: black;
+    margin-top:40px;
+    padding-top:40px;
+}
+#avon-img img{
+    margin-bottom: 5px;
+}
+#avon-img p{
+    color:white;
+    font-family: "futura-pt",sans-serif,light;
+    font-size:25pt;
+    line-height: 25pt;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:10px;
+    
+}
+#color-icon{
+   background-color: #D5461D;
+}
+footer p{
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    line-height:23px;
+    text-align: right;
+    padding-top:20px;;
+}
 @media (min-width:375px) {
     nav a{
         font-size:21px;
     }
-    
+    h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:10px;
+    }
+}
+@media (min-width:576px) {
+    nav a{
+        font-size:21px;
+    }
+    h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:10px;
+    }
+    p{
+        font-size:30pt;
+    }
+    footer p{
+        font-size:25pt;
+        line-height:30pt;
+    }
+}
+@media (min-width:992px) {
+    nav a{
+        font-size:21px;
+    }
+    h1{
+        font-size:60pt;
+        line-height: 60pt;
+        padding-top:300px;
+    }
+    h2{
+        font-size:25pt;
+    }
+    p{
+        font-size:50pt;
+        
+    }
+    #avon-img p{
+        font-size: 30pt;
+        line-height: 35pt;
+    }
+    footer p{
+        font-size:30pt;
+        line-height:40pt;
+    }
+    footer img{
+        scale: 2;
+    }
+    #color-icon{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
 }
