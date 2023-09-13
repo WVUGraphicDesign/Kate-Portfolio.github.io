@@ -4,6 +4,17 @@ body{
         color:red;
     }
 }
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+}
+.bg-black{
+    background-color:black;
+}
 @font-face {
     font-family: 'unfinished_screamregular';
     src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
