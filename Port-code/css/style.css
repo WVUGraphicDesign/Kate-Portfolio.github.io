@@ -91,8 +91,7 @@ p{
 }
 #avon-img{
     background-color: black;
-    margin-top:40px;
-    padding-top:40px;
+ 
 }
 #avon-img img{
     margin-bottom: 5px;
@@ -102,8 +101,7 @@ p{
     font-family: "futura-pt",sans-serif,light;
     font-size:25pt;
     line-height: 25pt;
-    margin-top:10px;
-    margin-bottom: 20px;
+
 }
 #footer{
     display: grid;
@@ -173,9 +171,9 @@ footer p{
         font-size:30pt;
         line-height:40pt;
     }
-    footer img{
-        scale: 2;
-    }
+ footer img{
+    scale:.75;
+ }
     #color-icon{
         padding-top:20px;
         padding-bottom:20px;
