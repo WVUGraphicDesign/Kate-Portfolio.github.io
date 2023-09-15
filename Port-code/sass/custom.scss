@@ -197,6 +197,8 @@ p{font-size:1.5rem;}
         line-height:30pt;
     }
     p{font-size:1.25rem;}
+
+ 
 }
 @media (min-width:992px) {
 
@@ -227,5 +229,11 @@ p{font-size:1.5rem;}
     }
     footer p{
         font-size:1.5rem;
+    }
+    #profile{
+        margin-top: -61px;
+    }
+    #course-work{
+        margin-top:-270px;
     }
 }
