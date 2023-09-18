@@ -20,20 +20,11 @@ img{
 }
 
 .wrapper{
-    background-image:url("../images/home-background.jpg");
-    background-image: cover;
-background-position:center ;
-width:100%;
-
-
-    background-repeat:no-repeat;
-    background-size:100%;
-  
-    background-attachment:scroll;
-   
-    float:left;
-    height: 1800px;
-
+    width: 100%;
+    height: 400px;
+    background-image: url('/Port-code/images/home-background.jpg');
+    background-size: auto;
+    
    
 }
 .wrapper-2{
