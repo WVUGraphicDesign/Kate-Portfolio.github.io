@@ -41,6 +41,19 @@ img{
     #3B3B3B 100%);
 }
 
+
+.background-home{
+    
+    
+    
+    width: 100%;
+    height: 400px;
+    background-image: url('/Port-code/images/home-background.jpg');
+    background-size: auto;
+    
+   
+
+}
 nav ul{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,6 +66,12 @@ nav ul li{
     list-style:none;
     margin-left:0;
     text-align: center;
+}
+#home-bold{
+  font-family: "alternate-gothic-atf", medium, sans-serif; 
+  font-size:1.5rem;
+  
+
 }
 nav a{
     text-decoration:none;
@@ -105,7 +124,7 @@ h2{
 }
 p{
     font-family: "futura-pt", sans-serif;
-    font-size:1.5rem;
+    font-size:1.25rem;
 }
 span{
     font-weight: bold;
@@ -131,16 +150,14 @@ span{
 }
 #footer{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top:10px;
     
 }
 #color-icon{
    background-color: #D5461D;
 }
-#profile{
-    position:absolute;
-}
+
 footer p{
     font-family: "Alternate Gothic ATF",sans-serif;
     font-weight: 100;
@@ -149,25 +166,35 @@ footer p{
     text-align: right;
 
 }
-footer {
-    
-    border-bottom:10px solid #D5461D;
+#home-bold{
+    font-size:2rem;
 }
+
 @media (max-width:375px){
     footer img{
         scale:1.5;
+
      
 }
-p{font-size:1.5rem;}
+#hide-home{
+    
+    display:none;
+}
+p{font-size:1.25rem;}
 }
 @media (min-width:375px) {
-
+    #hide-home{
+      
+        display:none;
+    }
     h1{
         font-size:50pt;
         line-height: 50pt;
         padding-top:10px;
     }
-    p{font-size:1.5rem;}
+    p{
+        font-size:1.25rem;
+    }
     #avon-img p{
         font-size:1.75rem;
     }
@@ -176,7 +203,16 @@ p{font-size:1.5rem;}
     
 
 @media (min-width:576px) {
+    #hide-home{
+      
+        display:block;
+        padding-top:85px;
+       
 
+    }
+    #hide-home-2{
+        display:none;
+    }
     #avon h1{
         font-size:50pt;
         line-height: 50pt;
@@ -192,7 +228,21 @@ p{font-size:1.5rem;}
  
 }
 @media (min-width:992px) {
-
+    #raise-btt{
+        margin-top:-30px;
+    }
+    #raise-bttfly{
+        margin-top:-160px;
+    }
+ #move-down{
+    margin-top:25px;
+ }
+    #hide-home{
+      
+        display:block;
+        padding-top:200px;
+      
+    }
    #avon h1{
         font-size:60pt;
         line-height: 60pt;
@@ -226,5 +276,10 @@ p{font-size:1.5rem;}
     }
     #course-work{
         margin-top:-270px;
+    }
+    #profile{
+        position: relative;
+        margin-top:25px;
+    
     }
 }

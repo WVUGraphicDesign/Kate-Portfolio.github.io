@@ -25,6 +25,18 @@ width:100%;
    
 }
 
+
+.wrapper-4{
+    background-image:url("../images/mountain.jpg");
+  
+
+    background-repeat:no-repeat;
+width: 100%;
+height: 100vh;
+background-size: auto;
+    
+   
+}
 nav ul{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -88,6 +100,7 @@ h2{
 }
 p{
     font-family: "futura-pt", sans-serif;
+    font-size: 1.2rem;
 }
 #avon-img{
     background-color: black;
@@ -103,12 +116,7 @@ p{
     line-height: 25pt;
 
 }
-#footer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top:10px;
-    
-}
+
 #color-icon{
    background-color: #D5461D;
 }
@@ -140,7 +148,7 @@ footer p{
         padding-top:10px;
     }
     p{
-        font-size:30pt;
+        font-size:1.2rem;
     }
     footer p{
         font-size:25pt;
