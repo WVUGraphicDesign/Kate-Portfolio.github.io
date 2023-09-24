@@ -124,6 +124,16 @@ h2{
     font-size:2rem;
     padding-top:10px;
 }
+.alt-h2{
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size:60pt;
+    text-transform: uppercase;  
+    line-height: 60pt;
+}
 p{
     font-family: "futura-pt", sans-serif;
     font-size:1.25rem;
@@ -175,11 +185,11 @@ a {
     }
 
 
-#black-bg{
+.black-bg{
     color:white;
 }
 
-#black-bg:hover{
+.black-bg:hover{
     color:red;
 }
 a:hover {
@@ -187,48 +197,35 @@ a:hover {
         text-decoration:none; 
         
     }
-button{
-    color:white;
+#button{
+    background-color:white;
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
     padding-top:10px;
-    
-
-    a{
-        font-family: "Alternate Gothic ATF",sans-serif;
-        font-size:1.5rem;
-        font-weight: bold;
-        color:black;
-         
-    }
-    a:hover {
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
     color:black;
-        text-decoration:none; 
-        
-    }
+    
+}
+#button:hover{
+    background-color:red;
 }
 
 #bbutton{
-    background-color: black;
+    background-color:black;
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
     padding-top:10px;
-    
-
-    a{
-        font-family: "Alternate Gothic ATF",sans-serif;
-        font-size:1.5rem;
-        font-weight: bold;
-        color:white;
-         
-    }
-    a:hover {
-    color:red;
-        text-decoration:none; 
-        
-    }
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    color:black;
+}
+#bbutton:hover{
+    background-color:red;
 }
 .book{
     position:relative;
@@ -340,6 +337,9 @@ p{font-size:1.25rem;}
 #katelogo{
     margin-top:-60px; 
  }
+ #hide-home-2{  h1{
+    font-size:2.5rem;
+}}
 }
 @media (min-width:375px) {
     #hide-home{
@@ -377,6 +377,7 @@ p{font-size:1.25rem;}
      }
     #hide-home-2{
         display:none;
+      
     }
     #avon h1{
         font-size:50pt;
@@ -408,7 +409,11 @@ p{font-size:1.25rem;}
     #hide-home{
       
         display:block;
-        padding-top:21px;
+        padding-top:30px;
+
+        h1{
+            font-size: 3rem;;
+        }
       
     }
    #avon h1{
